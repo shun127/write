@@ -1,0 +1,74 @@
+.body  
+  .header
+    .header__name
+      Write
+      .header__message
+        書くためのテーマ
+      .herader__navber
+        %em.herader__navber__menu
+          ホーム
+        %em.herader__navber__page
+          ページ
+        %em.herader__navber__typography
+          タイポグラディー
+        %em.herader__navber__inquiry
+          問い合わせ
+  .main__ber
+    .main__ber--messages
+      .main__ber--messages-image
+        =image_tag "glasses.jpg",class:'glasses'
+      .main__ber--messages-message
+        Writeは文章を書く人のためのミニマルなWordPressテーマです。装飾を極限まで省いたデザインは、あなたの文章を主役にします。
+    .main__ber--brog
+      %em.main__ber--brog__data
+        2018年9月1日
+      %em.main__ber--brog__title
+        書くためのテーマ
+      .main__ber--brog--text
+        Writeは文章を書く人のためのミニマルなWordPressテーマです。装飾を極限まで省いたデザインは、あなたの文章を主役にします。
+    .main__ber--brog
+      %em.main__ber--brog__data
+        2018年3月5日
+      %em.main__ber--brog__title
+        画像付き投稿
+      .main__ber--brog--text
+        吾輩は猫である。名前はまだ無い。どこで生れたかとんと見当がつかぬ。何でも薄暗いじめじめした所でニャーニャー泣いていた事だけは記憶している。吾輩はここで始めて人間というものを見た。
+    .main__ber--brog
+      %em.main__ber--brog__data
+        2018年3月5日
+      %em.main__ber--brog__title
+        引用付きの投稿
+      .main__ber--brog--text
+        吾輩は猫である。名前はまだ無い。どこで生れたかとんと見当がつかぬ。何でも薄暗いじめじめした所でニャーニャー泣いていた事だけは記憶している。吾輩はここで始めて人間というものを見た。しかもあとで聞くとそれ…
+    .main__ber--footer
+      .main__ber--footer__profile
+        %em.main__ber--footer__profile--image
+          =image_tag "profile-m.png",class:'profile-m'
+        %em.main__ber--footer__profile--name
+          John Doe
+        %em.main__ber--footer__profile--contents
+          = link_to "https://www.facebook.com/", class: "contents__btn" do
+            = icon('fab', 'facebook-square')
+          = link_to "https://twitter.com/", class: "contents__btn" do
+            = icon('fab', 'twitter')
+          = link_to "https://www.instagram.com/", class: "contents__btn" do
+            = icon('fab', 'instagram')
+        .main__ber--footer__profile--wiget
+          これはプロフィールウィジェットです。ここにはプロフィール画像・名前・自己紹介文・ソーシャルリンク（最大7つ）を設定することができます。
+      .main__ber--footer__notice
+        .main__ber--footer__notice__name
+          フッター右
+        .main__ber--footer__notice__message
+          3つのフッター右ウィジェットエリアはフッターの右側に表示され、使用する数によって幅は自動的に調整されます。1つも使用しない場合は表示されません。
+      .main__ber--footer__posts
+      .main__ber--footer__category
+  .footer
+    %em.footer__contents
+      = link_to "https://twitter.com/", class: "contents__btn" do
+        = icon('fab', 'twitter')
+      = link_to "https://www.facebook.com/", class: "contents__btn" do
+        = icon('fab', 'facebook-square')
+      = link_to "https://www.instagram.com/", class: "contents__btn" do
+        = icon('fab', 'instagram')
+    %em.footer__message
+      Powered by WordPress | Theme: Write by Themegraphy

@@ -1,0 +1,112 @@
+.body{
+  margin:0 200px 0 200px
+}
+
+  .header{
+    height: 210px;
+    width: 100%;
+    position: relative;
+
+    &__name{
+      position: absolute;
+      margin: 50px 0 0 0 ;
+      font-size: 35px;
+    }
+
+      &__message{
+        font-size: 15px;
+        color: gray;
+      }
+    
+
+    &__navber{
+      font-size: 10px;
+    }
+  }
+  
+  .main__ber{
+
+    &--messages{
+      text-align: center;
+
+      &-image{
+    
+      }
+
+      &-message{
+        font-size: 27px;
+        padding-top: 80px;
+        color: grey;
+      }
+    }
+
+    &--brog{
+      padding-top: 130px;
+
+      &__data{
+
+      }
+
+      &__title{
+        margin-left: 213px;
+        font-size: 20px;
+      }
+
+      &--text{
+        margin-left: 330px;
+        color: gray;
+        margin-top: 30px;
+      }
+
+    }
+    &--footer{
+      border-top: solid 1px gray;
+      border-bottom: solid 1px gray;
+      
+        img{
+          max-width: 70px;
+        }
+      &__profile{
+        width: 250px;
+        &--image{
+          width: 5px;
+          .profile-m{
+            border-radius:50%
+            
+          }
+        }
+
+        &--contents{
+          .contents__btn{
+            color: gray;
+            text-decoration: none;
+          }
+        }
+        &--wiget{
+
+        }
+      }
+      &__notice{
+        width: 250px;
+        justify-content: space-between;
+        display: flex;
+      }
+
+    }
+  }
+  .footer{
+    margin: 50px 250px 0 0;
+    color: gray;
+    &__contents{
+    .contents__btn{
+      color: gray;
+      text-decoration: none;
+      margin-right: 20px;
+      font-size: 25px;
+    }
+  }
+    &__message{
+      margin-left: 200px;
+      font-size: 15px;
+    }
+  }
